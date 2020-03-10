@@ -3,12 +3,12 @@
 }
 
 .homePage>p {
-    margin: 25% 0;
-    animation: bounce 0.7s ease infinite;
+    margin-top: 15%;
+    animation: bounce 1s ease infinite;
 }
 
 @keyframes bounce{
-    from {margin: 25% 0;}
-    50%  {margin: 23% 0;}
-    to   {margin: 25% 0;}
+    from {margin-top: 15% ;}
+    50%  {margin-top: 13% ;}
+    to   {margin-top: 15% ;}
 }
