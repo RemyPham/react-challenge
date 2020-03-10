@@ -1,9 +1,30 @@
 .cold {
-    color: lightblue
+    color: grey;
+    background: linear-gradient(lightblue, white)
 }
 .nice {
-    color: black
+    color: grey;
+    background: linear-gradient(rgb(255, 255, 156), white)
 }
 .warm {
-    color: lightcoral
+    color: grey;
+    background: linear-gradient(lightcoral, white)
+}
+
+.tempPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tempPage > input {
+    width: 20%;
+    padding: 5px 0;
+    border: none;
+    border-bottom: solid 0.5px;
+    margin: 10% auto;
+}
+
+.tempPage > p {
+    height: 60vh;
 }

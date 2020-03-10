@@ -9,7 +9,7 @@ import Celebrities from './views/Celebrities'
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav className="nav">
         <Link to="/">Home</Link>
         <Link to="/temperature">Temperature</Link>
         <Link to="/customize-image">Customize Image</Link>

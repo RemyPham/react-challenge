@@ -21,7 +21,7 @@ export default function CustomImg() {
     return (
         <div className="customContainer">
             <h1>Customize Image</h1>
-            <input className="inputText" onChange={handleUrl} type="text"></input>
+            <input className="inputText" onChange={handleUrl} placeholder="Insert URL image..." type="text"></input>
             <input className="inputRange" onChange={handleSize} type="range" min="0" max="200"></input>
             <p className="sizeText">{size} x {size} px</p>
             {url && <img style={imgStyle} src={url}></img>}

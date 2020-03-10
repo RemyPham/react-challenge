@@ -38,9 +38,9 @@ class Celebrities extends Component {
         let single = this.state.singleCeleb
 
         return (
-            <div>
+            <div className="celebBody">
                 <h1>Celebrities</h1>
-                <input type="text" onChange={this.handleFilter}></input>
+                <input placeholder="Filter by name..." type="text" onChange={this.handleFilter}></input>
                 <div className="celebPage">
                     <div className="celebContainer">
                         {this.state.celebrities.map((celeb, i) => (

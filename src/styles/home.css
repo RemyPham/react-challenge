@@ -1,0 +1,14 @@
+.homePage {
+    text-align: center;
+}
+
+.homePage>p {
+    margin: 25% 0;
+    animation: bounce 0.7s ease infinite;
+}
+
+@keyframes bounce{
+    from {margin: 25% 0;}
+    50%  {margin: 23% 0;}
+    to   {margin: 25% 0;}
+}
